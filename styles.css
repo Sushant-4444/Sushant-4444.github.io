@@ -20,16 +20,23 @@ header {
     justify-content:space-between;
 }
 header .image{
+    margin-top: 20px;
     width: 80px;
-    height:111.2px;
-    border: 2px solid #333333;
-    border-radius: 5px;
-    background-color: #ffb61a;
+    height:80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    /* background-color: #ffb61a; */
+    background-image: url(/img1.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y: 8px;
+    background-color: #a9ac98;
 
 }
-header .image img{
+/* header .image img{
     width: inherit;
-}
+} */
 header .text{
     margin-right: 40vw;
     padding-top: 1em;
@@ -105,6 +112,12 @@ main .border ul li a:hover{
     color: #ffa500;
     font-size: 1.005em;
 }
+main #skills .border b,#skills h2{
+    text-decoration: underline;
+}
+main #skills .specific_skills{
+    color: #95ff00;
+}
 
 @media(max-width:600px){
     header .text{
@@ -116,5 +129,15 @@ main .border ul li a:hover{
     }
     #contact p,i{
         font-size: 0.8em;
+    }
+    main #skills{
+        font-size: small;
+    }
+    main #about{
+        font-size:medium;
+    }
+    header .image{
+        width: 60px;
+        height: 60px;
     }
 }
