@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
     <link rel="stylesheet" href="styles.css" />
     <title>My-Portfolio</title>
@@ -12,18 +13,29 @@
 
   <body>
     <header>
+      <div class="image">
+        <img src="/img1.png" alt="">
+      </div>
+      <div class="text">
       <h1>Sushant Arora</h1>
       <nav>
         <ul>
-          <li><a href="#about"><b>About</b></a></li>
-          <li><a href="#projects"><b>Projects</b></a></li>
-          <li><a href="#contact"><b>Contact</b></a></li>
+          <li>
+            <a href="#about"><b>About</b></a>
+          </li>
+          <li>
+            <a href="#projects"><b>Projects</b></a>
+          </li>
+          <li>
+            <a href="#contact"><b>Contact</b></a>
+          </li>
         </ul>
       </nav>
+      </div>
     </header>
 
     <main>
-      <section id="about">
+      <section id="about" class="border">
         <h2>About Me</h2>
         <p>
           Hey there! I'm Sushant Arora, a tech enthusiast and aspiring developer
@@ -39,7 +51,7 @@
           meaningfully to the ever-evolving tech landscape.
         </p>
       </section>
-      <section id="skills">
+      <section id="skills" class="border">
         <h2>Skills</h2>
         <b>Programming Languages:</b> <br />
         &middot;Python: Proficient in Python programming, including data
@@ -59,7 +71,7 @@
         &middot;Communication: Strong written communication skills, adept at
         conveying technical concepts to diverse audiences. <br />
       </section>
-      <section id="projects">
+      <section id="projects" class="border">
         <h2>Projects</h2>
         <!-- Add project details, images, descriptions -->
         <div class="project">
@@ -69,12 +81,34 @@
         </div>
         <!-- Repeat this structure for each project -->
       </section>
-      <section id="contact">
+      <section id="connect" class="border">
+        <h2>Connect with me on</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/sushant-arora-8a2a4828a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn
+            </a>
+          </li>
+          <li><a href="https://www.instagram.com/sushant_3654?igsh=MW41Y25jZ2d2ZjJsbA==" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+            </a>
+          </li>
+          <li><a href="https://github.com/Sushant-4444" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact" class="border">
         <h2>Contact Me</h2>
-        <p>Email: your@email.com</p>
-        <p>Phone: 123-456-7890</p>
+        <p>arorasushant4444@gmail.com</p>
+        
         <!-- You can add a contact form here -->
       </section>
+      
     </main>
 
     <footer>

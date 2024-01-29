@@ -14,8 +14,25 @@ body {
 header {
     background-color: #ffa500;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+    display: flex;
+    justify-content:space-between;
+}
+header .image{
+    width: 80px;
+    height:111.2px;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    background-color: #ffb61a;
+
+}
+header .image img{
+    width: inherit;
+}
+header .text{
+    margin-right: 40vw;
+    padding-top: 1em;
 }
 
 header h1 {
@@ -40,6 +57,10 @@ main {
     padding: 20px;
     background-color: #333333;
     color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 section {
@@ -54,4 +75,46 @@ footer {
     padding: 10px;
     background-color: #ffa500;
     color: white;
+}
+main .border{
+    border: 2px solid orange;
+    padding: 1em;
+    border-radius: 18px;
+    max-width: 80vw;
+    margin:1em 0em;
+    max-height: fit-content;
+}
+
+main #connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .border ul{
+    list-style-type: none;
+}
+main .border ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+main .border ul li a:hover{
+    text-decoration: none;
+    color: #ffa500;
+    font-size: 1.005em;
+}
+
+@media(max-width:600px){
+    header .text{
+        margin-right:5px;
+        margin-top: 18px;
+    }
+    header .text{
+        font-size: 10px;
+    }
+    #contact p,i{
+        font-size: 0.8em;
+    }
 }
