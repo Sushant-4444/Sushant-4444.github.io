@@ -9,7 +9,7 @@ const Home = () =>{
                     <h1>It's Sushant Arora</h1>
                 </div>
                 <div className="right-home w-[49vw]  min-w-[300px] flex justify-start items-end max-md:justify-center max-md:w-full">
-                    <img src="/src/assets/Sushant.png" alt="" className="w-[44vw] h-[44vw] min-w-[300px] min-h-[300px]" />
+                    <img src="Sushant.png" alt="" className="w-[44vw] h-[44vw] min-w-[300px] min-h-[300px]" />
                 </div>
             </div>
         </>
