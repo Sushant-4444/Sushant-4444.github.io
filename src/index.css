@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AeonikTrial';
+  src: url('/src/Fonts/Aeonik\ TRIAL.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root{
+  --font-family: 'AeonikTrial';
+  color: black;
+  background-color: #F3F3F3;
+}
