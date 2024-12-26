@@ -12,6 +12,24 @@
 
 :root{
   --font-family: 'AeonikTrial';
-  color: black;
-  background-color: #F3F3F3;
+  color: #ffffff;
+  background-color: #151925;
+}
+
+@media screen and (max-width: 640px) {
+  html{
+    font-size: 8px;
+  }
+  
+}
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  html{
+    font-size: 10px;
+  }
+  
+}
+@media screen and (min-width: 1024px) and (max-width: 1494px) {
+  html{
+    font-size: 12px;
+  }
 }
